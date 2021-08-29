@@ -25,3 +25,8 @@ text-decoration: underline !important;
      font-size: 50px;
      color: #17a2b8;
  }
+
+ #passwordDetails ,#userNameDetails{
+     color: #7f7f7f;
+     display: none;
+ }
