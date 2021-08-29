@@ -21,7 +21,7 @@ function emailValidation(usermail) {
         if (usersContainer[i].userEmail == usermail){ 
             invalidMessageInput.innerHTML = "This Email already Exists";
             invalidMessageInput.style = "color:red;";
-            alert(" email Exist");
+            // alert(" email Exist");
             return false;
         }
     }
@@ -29,7 +29,7 @@ function emailValidation(usermail) {
     {
         invalidMessageInput.innerHTML = " Invalid Email ";
         invalidMessageInput.style = " color:red; ";
-        alert("invalid email ");
+        // alert("invalid email ");
         return false;
     }
     return true ;
@@ -77,7 +77,7 @@ newUserNameInput.addEventListener("blur",function(){
 
 function userNameValidation(username){
     let userNameRegex=/^[A-Za-z]+ ?[A-Za-z0-9_]+$/;
-    alert(userNameRegex.test(username));
+    // alert(userNameRegex.test(username));
     if(userNameRegex.test(username)){ 
     invalidMessageInput.innerHTML = "";
     return true;
